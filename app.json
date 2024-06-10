@@ -12,16 +12,21 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.pushnotifications"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anonymous.pushnotifications"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "oneSignalAppId": "f7b8ed13-d415-4ab4-bfa1-a4c57d922138"
     }
   }
 }
